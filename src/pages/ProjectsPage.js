@@ -6,19 +6,18 @@ import ToDoApp from '../files/ToDoApp.mp4';
 import Lists from '../files/Lists.mp4';
 import ChatApp from '../files/ChatApp.mp4';
 import Footer from '../components/Footer';
-import { FaArrowRight } from 'react-icons/fa';
 
 const ProjectsPage = () => {
   return (
     <div className='m-0'>
         <Header />
-        <div className='py-12 px-8 md:px-32'>
+        <div className='py-12 px-2 xs:px-10 md:px-32'>
             <h2 className='font-semibold text-center text-3xl pb-2'>PROJECTS</h2>
             <section className='py-5'>
                 <h4 className='font-bold text-xl mb-3'>My Projects</h4>
                 <div className='grid lg:grid-cols-2 gap-2'>
-                    <div className='grid justify-items-stretch bg-slate-50 py-3'>
-                      <Project videoFile={RegistrationVideo}/>
+                    <div className='grid justify-items-stretch bg-slate-50 pb-3'>
+                      <Project videoFile={RegistrationVideo} />
                       <h2 className='justify-self-center text-lg font-semibold  my-2'>Multi-step Registration form</h2>
                       <section className='grid mx-20'>
                         <h3 className='text-slate-500 font-semibold'>Technology used:</h3>
