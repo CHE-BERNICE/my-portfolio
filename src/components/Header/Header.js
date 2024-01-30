@@ -27,9 +27,9 @@ const Header = () => {
         <NavLink to='/about' className='text-center font-semibold p-3'>About</NavLink>
         <NavLink to='/projects' className='text-center font-semibold p-3'>Projects</NavLink>
         <NavLink to='/contact' className='text-center font-semibold p-3'>Contact</NavLink>
-    </div>
-    <a href={resume} className='justify-self-center md:justify-self-end border-2 border-green-600 font-semibold text-green-600 md:inline-block my-2 md:my-0 p-2'>My Resume</a></>
-  }
+        </div>
+        <a href={resume} className='justify-self-center md:justify-self-end border-2 border-green-600 font-semibold text-green-600 md:inline-block my-2 md:my-0 p-2'>My Resume</a></>
+        }
     </div>
   )
 }
