@@ -19,6 +19,7 @@ const ProjectsPage = () => {
                     <div className='grid justify-items-stretch bg-slate-50 pb-3'>
                       <Project videoFile={RegistrationVideo} />
                       <h2 className='justify-self-center text-lg font-semibold  my-2'>Multi-step Registration form</h2>
+                      <p className='text-black my-2 mx-5 text-center'>This is a multi-step registration form that saves the data entered and then prints it out on the console. It is a Client-side system.</p>
                       <section className='grid mx-20'>
                         <h3 className='text-slate-500 font-semibold'>Technology used:</h3>
                         <ul className='list-disc'>
@@ -31,6 +32,7 @@ const ProjectsPage = () => {
                     <div className='grid justify-items-stretch bg-slate-50 py-3'>
                       <Project videoFile={ToDoApp}/>
                       <h2 className='justify-self-center text-lg font-semibold  my-2'>A TO DO App</h2>
+                      <p className='text-black my-2 mx-5 text-center'>This is a To do List mobile Application. On this app you can: add a task, delete a task, cross out a completed task and delete all tasks </p>
                       <section className='grid mx-20'>
                         <h3 className='text-slate-500 font-semibold'>Technology used:</h3>
                         <ul className='list-disc'>
@@ -43,6 +45,7 @@ const ProjectsPage = () => {
                     <div className='grid justify-items-stretch bg-slate-50 py-3'>
                       <Project videoFile={ChatApp}/>
                       <h2 className='justify-self-center text-lg font-semibold  my-2'>A Chat App</h2>
+                      <p className='text-black my-2 mx-5 text-center'>This is a frontend Chat application in which a user can sign up or sign in. Once logged in, one can view the chat forums they are in; and get into a forum to view the messages. </p>
                       <section className='grid mx-20'>
                         <h3 className='text-slate-500 font-semibold'>Technology used:</h3>
                         <ul className='list-disc'>
@@ -55,6 +58,7 @@ const ProjectsPage = () => {
                     <div className='grid justify-items-stretch bg-slate-50 py-3'>
                       <Project videoFile={Lists}/>
                       <h2 className='justify-self-center text-lg font-semibold  my-2'>Multiple Lists</h2>
+                      <p className='text-black my-2 mx-5 text-center'>This is a mobile application that displays various lists with varying styles, including Flex box.</p>
                       <section className='grid mx-20'>
                         <h3 className='text-slate-500 font-semibold'>Technology used:</h3>
                         <ul className='list-disc'>
